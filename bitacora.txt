@@ -7,3 +7,5 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 25	-				Se hará de manera recursiva
+29	commit + tag RespuestaPreguntaFusion+ git push+ git push --tags
+
