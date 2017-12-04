@@ -9,6 +9,7 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 
+
 3	git checkout -b Historia000						
 4	git checkout -b Historia001				
 5	git checkout Historia000
@@ -19,4 +20,9 @@
 12	git stash + checkout historia000 + git stash apply	Han habido conflictos en el merge solucionados desde el editor.
 17	git stash pop
 21 	git merge Historia000		Ha habido conflictos en el merge, pero se han solucionado desde el editor. Fast forward.
+
+25	-				Se hará de manera recursiva
+29	commit + tag RespuestaPreguntaFusion+ git push+ git push --tags
+32	git merge		Recursiva
+
 
