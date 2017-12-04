@@ -1,12 +1,22 @@
 ﻿%%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
+
 %% Alumno (Apellidos, Nombre):     Adrián Lucas Degaudinne          %%
+
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+
+3	git checkout -b Historia000						
+4	git checkout -b Historia001				
+5	git checkout Historia000
+
 7	git add bitacora.txt		
 8	git commit -m "Paso 08"
 9	git checkout Historia001
+12	git stash + checkout historia000 + git stash apply	Han habido conflictos en el merge solucionados desde el editor.
 17	git stash pop
+21 	git merge Historia000		Ha habido conflictos en el merge, pero se han solucionado desde el editor. Fast forward.
+
